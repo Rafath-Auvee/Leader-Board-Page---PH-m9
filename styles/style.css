@@ -114,6 +114,10 @@ main {
     column-gap: 24px;
 }
 
+.course {
+    width: 87%;
+}
+
 .course .course-banner img {
     width: 224px;
     height: 104px;
@@ -160,6 +164,11 @@ main {
     .blog {
         flex-direction: column;
     }
+    .course {
+        width: 65%;
+        margin-bottom: 21px;
+        margin-left: 5px;
+    }
 }
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
@@ -174,5 +183,10 @@ main {
     }
     .courses {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .course {
+        width: 54%;
+        margin-bottom: 21px;
+        margin-left: 5px;
     }
 }
